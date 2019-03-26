@@ -4,17 +4,13 @@
             "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "FirstJavaApp"
-            // "console": "externalTerminal"
+            "mainClass": "App"
         },
         {
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "${file}",
-            "projectName": "FirstJavaApp"
-            // "console": "externalTerminal"
+            "mainClass": "${file}"
         }
     ]
 }
