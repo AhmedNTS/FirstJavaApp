@@ -3,10 +3,4 @@
 *.project
 
 bin
-out
-
-.gradle
-.idea
-build
 .settings
-out

@@ -2,17 +2,19 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - App",
-            "request": "launch",
-            "mainClass": "src.main.java.App",
-            "projectName": "FirstJavaApp"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - App",
+            "name": "Debug (Launch)",
             "request": "launch",
             "mainClass": "App",
             "projectName": "FirstJavaApp"
+            // "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "FirstJavaApp"
+            // "console": "externalTerminal"
         }
     ]
 }
