@@ -6,7 +6,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "FirstJavaApp",
-            "console": "externalTerminal"
+            "console": "integratedTerminal"
         },
         {
             "type": "java",
